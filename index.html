@@ -24,6 +24,30 @@
 <iframe src="https://monseigneur-vip.github.io/-vip.html" width="650" height="850"></iframe>
 
 
+<font color="green">
+<span id="span"></span>
+<script type="text/javascript">
+    function runtime(){
+        // 初始时间，日/月/年 时:分:秒
+        X = new Date("8/28/2021 0:00:00");
+        Y = new Date();
+        T = (Y.getTime()-X.getTime());
+        M = 24*60*60*1000;
+        a = T/M;
+        A = Math.floor(a);
+        b = (a-A)*24;
+        B = Math.floor(b);
+        c = (b-B)*60;
+        C = Math.floor((b-B)*60);
+        D = Math.floor((c-C)*60);
+        //信息写入到DIV中
+        span.innerHTML = "本系统已经运行: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+    }
+    setInterval(runtime, 1000);
+</script>
+</font>
+
+
 <h2 style="color:#CCCCCC">-------------------------------------------------------------------------------------------------------------------------------</h2><a>Email联系：444543290@qq.com</a>&nbsp&nbsp&nbsp&nbsp
 </div></strong></div></body></html> </center> <script language="Javascript">document.oncontextmenu=new Function("event.returnValue=false");document.onselectstart=new Function("event.returnValue=false");</script> <audio src="https://jx.yaohuaxuan.com/cdn/kuwo.php" autoplay></audio><script type="text/javascript">document.oncontextmenu=function(e){return false;}</script> </body></html>
 

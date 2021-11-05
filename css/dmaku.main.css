@@ -8,4 +8,4 @@
 body{background:#fff}
 .error{ background:#FFF; padding-top:160px;}
 .error .img{ width:662px; margin:0 auto}
-.error .back{background:url(../images/btn.jpg) no-repeat;display:block;  width:156px; height:57px; text-indent:-999em; margin:30px auto}
+.error .back{background:url(../image/btn.jpg) no-repeat;display:block;  width:156px; height:57px; text-indent:-999em; margin:30px auto}

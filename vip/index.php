@@ -23,7 +23,7 @@ padding: 0;
 <link rel="shortcut icon" href=" /favicon.ico" />
 </head>
 <body>
-<iframe width="100%" height="100%" src="vip/so.html" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe>
+<iframe width="100%" height="100%" src="/so.html" frameborder="0" border="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe>
 <div id="footer">welcome to vip movie<div>
 </body>
 </html>  	 

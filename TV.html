@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>电视直播 -全网影视搜索</title>
+<meta name="Keywords" content="高清电视直播,64码直播,风云直播,uusee网络电视,乐视直播" />
+<meta name="description" content="电视直播是全网影视集多家电视直播、影视和音乐于一身的综合视听网站,能够在线收看电视台直播、电影，收听音乐，播放流畅、完全免费!" />
+ <!--<script>
+     /*全网影视搜索 */
+     try {
+      var urlhash = window.location.hash;
+      if (!urlhash.match("fromapp")) {
+      if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
+      window.location = "https://vod.919yy.com/vodtype/24.html";
+      }
+      }
+      } catch (err) {}	
+</script> -->
+<style type="text/css">
+* {margin: 0;padding: 0;outline: none;}
+html {height: 100%; }
+*html{background-image:url(about:blank);background-attachment:fixed;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,button,textarea,p,blockquote,th,td,iframe {margin:0;padding:0}
+body {height: 100%;font:14px/1.5 '微软雅黑','Helvetica Neue',Helvetica,Arial,Sans-serif !important;background:#232323;}
+table {border-collapse:collapse;border-spacing:0}
+fieldset,img {border:0}
+ol,ul {list-style:none}
+.bingdoutv{ width:100%;height:100%;}
+.player{width:80%;height:100%;float:left;margin:0;padding:0}
+.list{min-width:180px;width:20%;height:100%; float:right;}
+</style>
+</head>
+<body onkeydown="onKeyDown()" oncontextmenu="return false" onselectstart="return false" ondragstart="return false" >
+<div class="bingdoutv">
+<div class="player"><!--<iframe id="iframe-player" name="iframe-player" src="/v2/?v=http://tx.hls.huya.com/huyalive/94525224-2655537474-11405446604132450304-2704233350-10057-A-0-1.m3u8" width="100%" height="100%" scrolling="no" frameborder="0"></iframe>--><iframe id="iframe-player" name="iframe-player" src="http://cctvalih5ca.v.myalicdn.com/live/cctv1_2/index.m3u8" width="100%" height="100%" scrolling="no" frameborder="0"></iframe></div>
+<div class="list"><iframe frameborder="0" src="/tv/list.html" width="100%" height="100%" scrolling="yes" border="0" ></iframe></div>
+</div>
+<script type="text/javascript">
+        window.onload = function(){
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                //F12
+                if(e.keyCode == 123){
+                    return false;
+                //Ctrl+Shift+I
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                //Shift+F10
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                //Ctrl+U
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+    </script>
+    <script type="text/javascript">
+function fuckyou(){ 
+window.close(); 
+window.location="about:blank"; 
+} 
+function ck() { 
+ console.profile(); 
+ console.profileEnd(); 
+ if(console.clear) { 
+ console.clear() 
+ }; 
+ if (typeof console.profiles =="object"){ 
+ return console.profiles.length > 0; 
+ }
+}
+function hehe(){
+ if( (window.console && (console.firebug || console.table && /firebug/i.test(console.table()) )) || (typeof opera == 'object' && typeof opera.postError == 'function' && console.profile.length > 0)){ 
+ fuckyou();
+ }
+ if(typeof console.profiles =="object"&&console.profiles.length > 0){
+ fuckyou();
+ }
+}
+hehe();
+window.onresize = function(){
+ if((window.outerHeight-window.innerHeight)>200) 
+ fuckyou();
+}
+</script>
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1277645603'%3E%3C/span%3E%3Cscript src='' type='text/javascript'%3E%3C/script%3E"));</script>
+
+</script>
+</body>
+</html>

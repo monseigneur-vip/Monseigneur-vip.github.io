@@ -1,154 +1,156 @@
-
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>HTML5响应式个人炫酷主页网页模板</title>
-    <meta name="keywords" content="HTML5响应式,个人炫酷主页" />
-    <meta name="description" content="HTML5响应式个人炫酷主页网页模板下载。" /> 
-    <meta name="author" content="js代码(www.jsdaima.com)" />
-    <meta name="copyright" content="js代码(www.jsdaima.com)" />
-    <script type="text/javascript" src="/static/js/protect.js"></script>
-    <!-- Js -->
-    <link rel="stylesheet" href="style/css/bootstrap.min.css">
-    <script src="style/js/jquery.min.js"></script>
-    <script src="style/js/tether.min.js"></script>
-    <script src="style/js/bootstrap.min.js"></script>
-    <link href="style/css/style.css" type="text/css" rel="stylesheet" />
-    <script>
-    (function(window) {
-        var theUA = window.navigator.userAgent.toLowerCase();
-        if ((theUA.match(/msie\s\d+/) && theUA.match(/msie\s\d+/)[0]) || (theUA.match(/trident\s?\d+/) && theUA.match(/trident\s?\d+/)[0])) {
-            var ieVersion = theUA.match(/msie\s\d+/)[0].match(/\d+/)[0] || theUA.match(/trident\s?\d+/)[0];
-            if (ieVersion < 10) {
-                var str = "你的浏览器版本太low了\n已经和时代脱轨了 :(";
-                var str2 = "推荐使用:<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:red'>谷歌</a>," + "<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:red'>火狐</a>," + "<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E7%8C%8E%E8%B1%B9%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:red'>猎豹</a>,其他双核急速模式";
-                document.writeln("<pre style='text-align:center;color:#fff;background-color:#0cc; height:100%;border:0;position:fixed;top:0;left:0;width:100%;z-index:1234'>" +
-                    "<h2 style='padding-top:200px;margin:0'><strong>" + str + "<br/></strong></h2><p>" +
-                    str2 + "</p><h2 style='margin:0'><strong>如果你的使用的是双核浏览器,请切换到极速模式访问<br/></strong></h2></pre>");
-                document.execCommand("Stop");
-            };
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>小K哥哥</title>
+    <meta name="description" content="小K娱乐网">
+    <meta name="keywords" content="小K娱乐网">
+    <link rel="icon" type="image/ico" href="//gravatar.eas1.cn/avatar/4cc893d113dd74ceca73f9863f2c5446/">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="http://js.02boy.com/favicon.ico"  />
+    <style> 
+body{background-image:url(02bj.jpg); 
+background-repeat:no-repeat;background-position:center} 
+.title{
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: cadetblue;
+            margin-top: 100px;
+            margin-bottom: 20px;
+            font-family: fantasy;
         }
-    })(window);
-    </script>
+
+        /* 下面是搜索框样式 */
+        .searchBox{
+            width: 82%;
+            height: 35px;
+            border: 1px solid cadetblue;
+            outline: hidden;
+            border-radius: 2px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .inputBox{
+                border: none;
+    width: 80%;
+    height: 26px;
+    line-height: 35px;
+    outline: none;
+    padding-left: 8px;
+    caret-color: #008B8B;
+    font-size: 14px;
+        }
+
+        .searchBtn{
+            width: 76px;
+    height: 33px;
+    border: none;
+    position: absolute;
+    right: 0;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    background-color: cornflowerblue;
+        }
+
+        /* 鼠标滑过按钮时背景色改变 */
+        .searchBtn:hover{
+            background-color: #497fdf;
+        }
+        #M1{
+        	width: 100px;
+    height: 36px;
+    padding-top: 2px\9;
+    /* cursor: pointer; */
+    color: #fff;
+    font-size: 15px;
+    /* letter-spacing: 1px; */
+    background: #3385ff;
+    /* border-bottom: 1px solid #2d78f4; */
+    /* outline: medium; */
+    *: ;
+    border-bottom: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border: 0;
+        text-align: center;
+    text-decoration:none;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+        padding: 7px;
+        float: left;
+        margin-left: 2%;     
+        margin-top: 2%;
+        }
+</style> 
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 </head>
 
 <body>
-    <!-- Header -->
-    <div class="nav">
-        <a class="logo" href="index.html"><img src="style/images/logo.png" width="40" title="啊翔的自留地"></a>
-        <a class="logo pull-right sobtn"><span class="glyphicon glyphicon-search" style="color: #B4B4B4;"></span></a>
-    </div>
-    <!-- Body -->
-    <section class="cd-hero">
-        <ul class="cd-hero-slider autoplay">
-            <li class="selected">
-                <div class="cd-half-width">
-                    <h2>赵XX</h2>
-                    <p>爱音乐、爱折腾、爱生活</p>
-                    <p>PHP开发攻城狮，'会找影视资源'的好人</p>
-                    <a class="cd-btn" href="about.html">查看详情</a>
-                </div>
-                <div class="cd-half-width cd-img-container">
-                    <img src="style/images/tech-1.png" alt="赵XX" title="赵XX" />
-                </div>
-            </li>
-            <li>
-                <div class="cd-full-width">
-                    <h2>观点与分享</h2>
-                    <p>记录生活点滴，分享人生喜乐！</p>
-                    <a class="cd-btn" href="http://www.jsdaima.com/blog/" target="_blank">查看详情</a>
-                </div>
-            </li>
-            <li>
-                <div class="cd-full-width">
-                    <h2>影视与感官</h2>
-                    <p>观看生活影片，感受欢天喜地！</p>
-                    <a class="cd-btn" href="vip/index.html" target="_blank">查看详情</a>
-                </div>
-            </li>
-            <li class="cd-bg-video">
-                <div class="cd-full-width">
-                    <h2>志趣相投</h2>
-                    <p>我们都一样热爱生活，记录生活，享受生活！</p>
-                    <a class="cd-btn" href="friends.html">查看详情</a>
-                </div>
-                <div class="cd-bg-video-wrapper" data-video="Tpl/Individual/Style/index/video/video">
-                </div>
-            </li>
-            <li>
-                <div class="cd-full-width">
-                    <h2>说走就走</h2>
-                    <p>生活不止眼前的苟且，还有诗和远方的田野！</p>
-                    <a class="cd-btn" href="tracks.html">查看详情</a>
-                </div>
-            </li>
-        </ul>
-        <div class="cd-slider-nav">
-            <nav>
-                <span class="cd-marker item-1"></span>
-                <ul>
-                    <li class="selected">
-                        <a class="glyphicon glyphicon-user" href="#0">简介</a>
-                    </li>
-                    <li>
-                        <a class="glyphicon glyphicon-fire" href="#0">博客</a>
-                    </li>
-                    <li>
-                        <a class="glyphicon glyphicon-film" href="#0">影视</a>
-                    </li>
-                    <li>
-                        <a class="glyphicon glyphicon-record" href="#0">圈子</a>
-                    </li>
-                    <li>
-                        <a class="glyphicon glyphicon-globe" href="#0">旅行</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </section>
-    <script src="style/js/main.js"></script>
-    <!-- Footer -->
-    <div class="clear"></div>
-    <div class="foot">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <a href="#">ICP备XXXXXXXX号</a>
-                </div>
-                <div class="col-sm-8 fr">Copyright © 2018 All Rights Reserved.
-                </div>
-                <p></p>
-            </div>
-        </div>
-        <!-- 弹出层 -->
-        <div class="so">
-            <i class="iconfont" title="关闭">×</i>
-            <div class="container">
-                <form action="https://www.baidu.com/baidu" target="_blank">
-                    <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
-                    <input type="text" name="word" class="form-control" baiduSug="1" value="百度搜索..." />
-                    <input type="submit" style="display: none;" />
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="to-top">↑</div>
-    <script src="style/js/GeeYo.js"></script>
-    <script>
-    var bheigh = $(window).height();
-    var bheigh = bheigh - 115;
-    $(".cd-hero").css('height', bheigh);
-    $(window).resize(function() {
-        var bheigh = $(window).height();
-        var bheigh = bheigh - 115;
-        $(".cd-hero").css('height', bheigh);
-    });
-    </script>
-    <script charset="gbk" src="https://www.baidu.com/js/opensug.js"></script>
-</body>
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg"></div>
+            <div class="col-lg-8 card">
+            	
+                
+<div class="searchBox">
+	<form action="http://www.baidu.com/baidu" target="_blank">
+    <input name="tn" type="hidden" value="baidu">
+    <input  class="inputBox" type="text" name="word" size="30" placeholder="小K娱乐网">
+    <input  class="searchBtn" type="submit" value="百度搜索">
+    </form>
+</div>
 
+                <br><br>
+                <p>
+                    我很喜欢的一句话：<br>If the moon smiled, she would resemble you.<br> 如果月亮会笑，那么她一定像你一样美！
+
+                </p>
+                <br><br>
+
+                <!--<p>作者梦悻</p>-->
+                                <p>常用链接:</p>
+
+                
+                
+                
+               <div width="100px" height="100px">
+               	
+               	<a href="https://www.kjsv.com/" id="M1">小KのBlog</a>&nbsp;
+               	<a href="http://www.wxxdh.com/" id="M1" style="background-color: #af00ff;">二次元导航</a>
+               	<a href="https://www.7ynet.cn" id="M1" style="background-color: #2ed000;">七月影院</a>
+               	<a href="https://whk.red/count_down/" id="M1" style="background-color: #09c5de;">下班倒计时</a>
+               	<a href="https://whk.red/qing.html" id="M1" style="background-color: #ff7a7a;">轻音乐</a>
+               	<a href="https://whk.red/wallpaper/" id="M1" style="background-color: #d4a40a;">电脑壁纸</a>
+               	<a href="https://whk.red/fanyi/" id="M1" style="background-color: #444444;">缩写翻译</a>
+               	
+               </div>
+               
+                <!--<input type="submit" id="M1" value="百度一下" class="bg s_btn">-->
+
+                <h4 class="mt-4">or, keep your eyes on</h4>
+                <ul class="social mt-1">
+                    <li><a href="https://weibo.com/576277771"><i class="fab fa-weibo " aria-hidden="true"></i></a></li>
+                    <!--<li><a href="https://github.com/xuezheli"><i class="fab fa-github" aria-hidden="true"></i></a></li>-->
+                    <!--<li><a href="#"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>-->
+                    <!--<li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>-->
+                    <!--<li><a href="#"><i class="fab fa-zhihu" aria-hidden="true"></i></a></li>-->
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer">
+            <footer class="mt-3">
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278686381'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1278686381%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+            </footer>
+        </div>
+    </div>
+</body>
 </html>

@@ -1,0 +1,26 @@
+$small-bp: 640px;
+$large-bp: 840px;
+
+$ui-opacity: 0.5;
+$ui-color: rgba(#fff, $ui-opacity);
+$font: 'Russo One', arial, sans-serif;
+$letter-spacing: 0.06em;
+
+* {
+	position: relative;
+	box-sizing: border-box; 
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	background-color: #000;
+}
+
+body {
+	overflow: hidden;
+	color: $ui-color;
+	font-family: $font;
